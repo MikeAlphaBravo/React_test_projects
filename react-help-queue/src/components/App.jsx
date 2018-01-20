@@ -5,7 +5,6 @@ function App(){
   return (
     <div>
       <Header/>
-      <h1>Help Queue</h1>
       <h3>{new Date().toLocaleTimeString()}</h3>
       <h3>3a</h3>
       <h3>Thato and Haley</h3>
