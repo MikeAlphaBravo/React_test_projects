@@ -36,11 +36,14 @@ module.exports = {
         exclude: /node_modules/,
         options: {
           presets: [
-            "es2015",
-            "react"
+            ["es2015", {"modules": false}],
+            "react",
+          ],
+          plugins: [
+            "react-hot-loader/babel"
           ]
         }
-      },
-    ],
-  }
+      }
+    ]
+  },
 };
