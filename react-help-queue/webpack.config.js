@@ -1,5 +1,5 @@
-const { resolve } = require('path');
 const webpack = require('webpack');
+const { resolve } = require('path');
 
 module.exports = {
 
@@ -17,7 +17,7 @@ module.exports = {
   },
 
   resolve: {
-    extensions: [ '.js', '.jsx' ]
+    extensions: ['.js', '.jsx']
   },
 
   devtool: '#source-map',
