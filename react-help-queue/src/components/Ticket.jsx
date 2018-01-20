@@ -1,13 +1,13 @@
 import React from "react";
 
-function Ticket(){
+function Ticket(props){
   return (
-      <div>
-        <h3>9B - Michael & Margaret</h3>
-        <p><em>Firebase entries not saving!</em></p>
-        <hr/>
-      </div>
-   );
+    <div>
+      <h3>{props.location} - {props.names}</h3>
+      <p><em>{props.issue}</em></p>
+      <hr/>
+    </div>
+  );
 }
 
 export default Ticket;
