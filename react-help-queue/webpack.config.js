@@ -4,7 +4,10 @@ const webpack = require('webpack');
 module.exports = {
 
   entry: [
-    resolve(__dirname, "src") + "/index.jsx"
+    'react-hot-loader/patch',
+    'webpack-dev-server/client?http://localhost:8080',
+    'webpack/hot/only-dev-server',
+    resolve(__dirname, "src", "index.jsx")
   ],
 
   output: {
