@@ -22663,6 +22663,10 @@ var _Header = __webpack_require__(188);
 
 var _Header2 = _interopRequireDefault(_Header);
 
+var _TicketList = __webpack_require__(189);
+
+var _TicketList2 = _interopRequireDefault(_TicketList);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function App() {
@@ -22671,15 +22675,11 @@ function App() {
     null,
     _react2.default.createElement(_Header2.default, null),
     _react2.default.createElement(
-      "h1",
-      null,
-      "Help Queue"
-    ),
-    _react2.default.createElement(
       "h3",
       null,
       new Date().toLocaleTimeString()
     ),
+    _react2.default.createElement(_TicketList2.default, null),
     _react2.default.createElement(
       "h3",
       null,
@@ -22731,6 +22731,12 @@ function Header() {
 }
 
 exports.default = Header;
+
+/***/ }),
+/* 189 */
+/***/ (function(module, exports) {
+
+throw new Error("Module build failed: SyntaxError: Unexpected token (6:2)\n\n\u001b[0m \u001b[90m 4 | \u001b[39m  \u001b[36mreturn\u001b[39m (\n \u001b[90m 5 | \u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 6 | \u001b[39m  )\u001b[33m;\u001b[39m\n \u001b[90m   | \u001b[39m  \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 7 | \u001b[39m}\n \u001b[90m 8 | \u001b[39m\n \u001b[90m 9 | \u001b[39m\u001b[36mexport\u001b[39m \u001b[36mdefault\u001b[39m \u001b[33mTicketList\u001b[39m\u001b[33m;\u001b[39m\u001b[0m\n");
 
 /***/ })
 /******/ ]);
